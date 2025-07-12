@@ -16,7 +16,8 @@ Sou formada em Análise e Desenvolvimento de Sistemas, com experiência prática
 ---
 
 ## 🔗 **Acesse meu portfólio online**
-Veja o projeto publicado no GitHub Pages : git@github.com:leticia795/portfolio-leticia.git
+[Veja o projeto publicado no GitHub Pages](https://leticia795.github.io/portfolio-leticia/)
+
 
 ---
 
