@@ -1,102 +1,129 @@
-/* Corpo da página */
+/* Reset básico para consistência */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Fundo geral */
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background: #fff0f6; /* tom bem claro de rosa */
-    color: #5a2a4a; /* cor suave, roxa escura */
-    margin: 0;
-    padding: 0 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #fdf7f9; /* fundo rosé claro neutro */
+  color: #333;
+  line-height: 1.6;
 }
 
-/* Cabeçalho azul para um tom mais feminino e suave */
+/* Cabeçalho */
 header {
-    background: #d46a6a; /* rosa queimado */
-    color: white;
-    padding: 15px 0;
-    text-align: center;
-    box-shadow: 0 4px 8px rgba(212,106,106,0.4);
-    font-weight: 600;
-    font-size: 1.2rem;
-    letter-spacing: 0.04em;
+  background-color: #d18b8b; /* rosé profissional */
+  color: white;
+  padding: 30px 20px;
+  text-align: center;
 }
 
-/* Menu do topo */
-nav {
-    margin-top: 10px;
-    font-size: 0.85rem;
+header h1 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
 }
 
-nav a {
-    color: #ffe6e6; /* rosa clarinho */
-    margin: 0 12px;
-    text-decoration: none;
-    font-weight: 500;
-    transition: color 0.3s ease;
+header h2 {
+  font-size: 1rem;
+  font-weight: normal;
 }
 
-nav a:hover {
-    color: #fff0f6;
-    text-decoration: underline;
+/* Menu */
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 15px;
 }
 
-/* Box branco com sombra e borda arredondada */
+nav ul li {
+  margin: 5px 15px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #ffe6f0; /* tom rosé clarinho ao hover */
+}
+
+/* Seções */
 section {
-    background: white;
-    margin: 15px auto;
-    padding: 15px 25px;
-    border-radius: 15px;
-    box-shadow: 0 6px 12px rgba(212,106,106,0.2);
-    max-width: 900px;
+  max-width: 900px;
+  background: white;
+  margin: 25px auto;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.05);
 }
 
-/* Títulos com cor feminina e um pouco mais chamativos */
+/* Títulos das seções */
 section h2 {
-    color: #a8325f;
-    font-weight: 700;
-    margin-bottom: 12px;
-    border-bottom: 2px solid #f2b8c5;
-    padding-bottom: 6px;
+  border-bottom: 2px solid #d18b8b;
+  padding-bottom: 10px;
+  margin-bottom: 15px;
+  color: #b35d5d;
 }
 
-/* Itens de lista */
-ul li {
-    margin-bottom: 6px;
+/* Listas de skills */
+ul.skills {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 10px;
 }
 
-/* Destaque para nomes e cargos */
-strong {
-    color: #7a3050;
+ul.skills li {
+  background: #f9e6e6;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
 }
 
-/* Links internos ou externos */
+/* Experiência */
+.experiencia-item {
+  margin-bottom: 15px;
+}
+
+.experiencia-item h3 {
+  color: #b35d5d;
+  margin-bottom: 5px;
+}
+
+/* Links gerais */
 a {
-    color: #b54f71;
-    text-decoration: none;
-    font-weight: 600;
+  color: #b35d5d;
 }
 
 a:hover {
-    text-decoration: underline;
+  color: #d18b8b;
 }
 
-/* Footer simples */
+/* Footer */
 footer {
-    margin-top: 30px;
-    text-align: center;
-    font-size: 0.8rem;
-    color: #b0607c;
+  text-align: center;
+  padding: 20px;
+  background: #d18b8b;
+  color: white;
+  margin-top: 30px;
 }
 
-/* Responsividade simples */
+/* Responsividade */
 @media (max-width: 600px) {
-    body {
-        padding: 10px;
-    }
-    section {
-        padding: 10px 15px;
-        margin: 10px 0;
-    }
-    nav a {
-        margin: 0 8px;
-        font-size: 0.75rem;
-    }
+  nav ul {
+    flex-direction: column;
+  }
+
+  section {
+    margin: 15px;
+    padding: 20px;
+  }
 }
