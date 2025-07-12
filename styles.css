@@ -1,48 +1,102 @@
+/* Corpo da página */
 body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #fff0f6; /* tom bem claro de rosa */
+    color: #5a2a4a; /* cor suave, roxa escura */
     margin: 0;
-    padding: 0;
+    padding: 0 20px;
 }
 
+/* Cabeçalho azul para um tom mais feminino e suave */
 header {
-    background: #007BFF;
-    color: #fff;
-    padding: 20px 0;
+    background: #d46a6a; /* rosa queimado */
+    color: white;
+    padding: 15px 0;
     text-align: center;
+    box-shadow: 0 4px 8px rgba(212,106,106,0.4);
+    font-weight: 600;
+    font-size: 1.2rem;
+    letter-spacing: 0.04em;
 }
 
-nav ul {
-    list-style: none;
-    padding: 0;
+/* Menu do topo */
+nav {
+    margin-top: 10px;
+    font-size: 0.85rem;
 }
 
-nav ul li {
-    display: inline;
-    margin: 0 15px;
-}
-
-nav ul li a {
-    color: #fff;
+nav a {
+    color: #ffe6e6; /* rosa clarinho */
+    margin: 0 12px;
     text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease;
 }
 
+nav a:hover {
+    color: #fff0f6;
+    text-decoration: underline;
+}
+
+/* Box branco com sombra e borda arredondada */
 section {
-    padding: 20px;
-    margin: 20px;
-    border: 1px solid #ddd;
-    border-radius: 5px;
+    background: white;
+    margin: 15px auto;
+    padding: 15px 25px;
+    border-radius: 15px;
+    box-shadow: 0 6px 12px rgba(212,106,106,0.2);
+    max-width: 900px;
 }
 
-h2 {
-    color: #007BFF;
+/* Títulos com cor feminina e um pouco mais chamativos */
+section h2 {
+    color: #a8325f;
+    font-weight: 700;
+    margin-bottom: 12px;
+    border-bottom: 2px solid #f2b8c5;
+    padding-bottom: 6px;
 }
 
+/* Itens de lista */
+ul li {
+    margin-bottom: 6px;
+}
+
+/* Destaque para nomes e cargos */
+strong {
+    color: #7a3050;
+}
+
+/* Links internos ou externos */
+a {
+    color: #b54f71;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Footer simples */
 footer {
+    margin-top: 30px;
     text-align: center;
-    padding: 10px 0;
-    background: #f4f4f4;
-    position: relative;
-    bottom: 0;
-    width: 100%;
+    font-size: 0.8rem;
+    color: #b0607c;
+}
+
+/* Responsividade simples */
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+    section {
+        padding: 10px 15px;
+        margin: 10px 0;
+    }
+    nav a {
+        margin: 0 8px;
+        font-size: 0.75rem;
+    }
 }
