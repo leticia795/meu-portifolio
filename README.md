@@ -16,9 +16,7 @@ Sou formada em Análise e Desenvolvimento de Sistemas, com experiência prática
 ---
 
 ## 🔗 **Acesse meu portfólio online**
-[Veja o projeto publicado no GitHub Pages](https://SEU-USUARIO.github.io/NOME-DO-REPOSITORIO)
-
-(Substitua o link acima pelo URL do seu GitHub Pages após deploy)
+Veja o projeto publicado no GitHub Pages : git@github.com:leticia795/portfolio-leticia.git
 
 ---
 
@@ -30,7 +28,7 @@ Este portfólio foi desenvolvido para apresentar minhas **competências técnica
 ## 📬 **Contato**
 - [Gmail](mailto:lehcruz19@gmail.com)
 - [LinkedIn](https://www.linkedin.com/in/leticiaoliveira-/)
-- [WhatsApp](tel:+5549998340792)
+- [WhatsApp](tel:Wa.me/5549998340792)
 
 ---
 
