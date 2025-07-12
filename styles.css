@@ -1,11 +1,11 @@
-/* Reset básico para consistência */
+/* basico */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* Fundo geral */
+/* Body geral */
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background-color: #fdf7f9; /* fundo rosé claro neutro */
@@ -13,35 +13,35 @@ body {
   line-height: 1.6;
 }
 
-/* Cabeçalho */
+/* Cabeçalho menor e elegante */
 header {
   background-color: #d18b8b; /* rosé profissional */
   color: white;
-  padding: 30px 20px;
+  padding: 15px 10px; /* reduzido */
   text-align: center;
 }
 
 header h1 {
-  font-size: 1.8rem;
-  margin-bottom: 10px;
+  font-size: 1.5rem; /* menor e mais elegante */
+  margin-bottom: 5px;
 }
 
 header h2 {
-  font-size: 1rem;
+  font-size: 0.9rem;
   font-weight: normal;
 }
 
-/* Menu */
+/* Menu de navegação */
 nav ul {
   list-style: none;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  margin-top: 15px;
+  margin-top: 10px;
 }
 
 nav ul li {
-  margin: 5px 15px;
+  margin: 5px 10px;
 }
 
 nav ul li a {
@@ -52,20 +52,20 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  color: #ffe6f0; /* tom rosé clarinho ao hover */
+  color: #ffe6f0;
 }
 
-/* Seções */
+/* Seções gerais */
 section {
   max-width: 900px;
   background: white;
-  margin: 25px auto;
-  padding: 25px;
+  margin: 20px auto;
+  padding: 20px;
   border-radius: 10px;
   box-shadow: 0 0 8px rgba(0,0,0,0.05);
 }
 
-/* Títulos das seções */
+/* Títulos de seção */
 section h2 {
   border-bottom: 2px solid #d18b8b;
   padding-bottom: 10px;
@@ -110,7 +110,7 @@ a:hover {
 /* Footer */
 footer {
   text-align: center;
-  padding: 20px;
+  padding: 15px;
   background: #d18b8b;
   color: white;
   margin-top: 30px;
@@ -124,6 +124,14 @@ footer {
 
   section {
     margin: 15px;
-    padding: 20px;
+    padding: 15px;
+  }
+
+  header h1 {
+    font-size: 1.2rem;
+  }
+
+  header h2 {
+    font-size: 0.8rem;
   }
 }
