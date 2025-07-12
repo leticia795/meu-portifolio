@@ -1,42 +1,37 @@
+# Portfólio de Leticia Cruz da Silva Oliveira
 
+🎓 **Formação:**  
+Análise e Desenvolvimento de Sistemas | UNIASSELVI | Conclusão: 12/2024
 
-
-# Meu Portfólio
-
-Bem-vindo ao meu portfólio! 🎉
-
-Sou Leticia Cruz da Silva Oliveira, formada em **Análise e Desenvolvimento de Sistemas**. Este portfólio apresenta meus projetos, habilidades e informações de contato.
-
-## Sobre Mim
-
-Sou uma analista de sistemas , com alguns cursos na area de desenvolvimento , buscando minha primeira colocação na area de TI.
-Dicas de ajudas serão bem vindas 😁
-
-## Tecnologias e Ferramentas
-
-### 💻 Linguagens de Programação
-- C#
-- JavaScript
-- TypeScript
-- HTML
-- CSS
-
-### 💼 Ferramentas
-- Visual Studio Code
-- Visual Studio
-- MySQL
-- SQL Serve 
-
-
-## Contato
-
-Você pode me encontrar nas seguintes plataformas:
-
-- [Gmail](mailto:lehcruz19@gmail.com)
-- [LinkedIn](https://www.linkedin.com/in/leticiaoliveira-/)
-- [WhatsApp](https://api.whatsapp.com/send?phone=5549998340792)
-
+💻 **Sobre Mim:**  
+Sou formada em Análise e Desenvolvimento de Sistemas, com experiência prática em linguagens e tecnologias como SQL, C#, JavaScript, Angular, APIs, HTML, Bootstrap e Git. Sou dedicada, proativa, apaixonada por aprender e possuo forte capacidade de trabalho em equipe, sempre buscando evolução constante na área de TI.
 
 ---
 
-Sinta-se à vontade para explorar meu portfólio e entrar em contato se tiver alguma dúvida ou oportunidade!
+## 🚀 **Tecnologias utilizadas**
+- HTML5
+- CSS3
+- Git e GitHub
+
+---
+
+## 🔗 **Acesse meu portfólio online**
+[Veja o projeto publicado no GitHub Pages](https://SEU-USUARIO.github.io/NOME-DO-REPOSITORIO)
+
+(Substitua o link acima pelo URL do seu GitHub Pages após deploy)
+
+---
+
+## 🎯 **Objetivo do projeto**
+Este portfólio foi desenvolvido para apresentar minhas **competências técnicas**, **experiências profissionais** e **objetivos de carreira**, de forma clara, organizada e responsiva para potenciais recrutadores.
+
+---
+
+## 📬 **Contato**
+- [Gmail](mailto:lehcruz19@gmail.com)
+- [LinkedIn](https://www.linkedin.com/in/leticiaoliveira-/)
+- [WhatsApp](tel:+5549998340792)
+
+---
+
+&copy; 2025 Leticia Cruz da Silva Oliveira. Todos os direitos reservados.
